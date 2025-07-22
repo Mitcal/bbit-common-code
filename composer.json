@@ -1,0 +1,20 @@
+{
+    "name": "bbit/common-code",
+    "description": "Code shared between multiple projects developed by BBIT",
+    "autoload": {
+        "psr-4": {
+            "BBIT\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Richardson",
+            "email": "michael@bumblebeeitsolutions.com"
+        },
+        {
+            "name": "Maria Mozgunova",
+            "email": "maria@bumblebeeitsolutions.com"
+        }
+    ],
+    "require": {}
+}
