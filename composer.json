@@ -16,5 +16,12 @@
             "email": "maria@bumblebeeitsolutions.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BBIT\\ServiceProvider"
+            ]
+        }
+    }
 }
