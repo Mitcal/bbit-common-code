@@ -3,7 +3,7 @@
 namespace BBIT\Livewire\Traits;
 
 trait WithSorting {
-    public ?string $sortBy;
+    public $sortBy;
     public $sortDirection = 'desc';
 
     public function sort($column) {
